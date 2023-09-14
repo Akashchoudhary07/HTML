@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 3 practice</title>
+</head>
+<body>
+    <table border="5" width="50%" height="250px">
+        <thead>
+            <tr>
+                <th>Header column 1</th>
+                <th>Header column 2</th>
+                <th>Header column 3</th>
+                <th>Header column 4</th>  
+            </tr>
+        </thead>
+            <tr>
+            <td>Row 2-Item 1</td>
+            <td>Row 2-Item 2</td>
+            <td rowspan="2"><p align="top"><b>Row 2 : Nested Table 1</b></p>
+                <table border="3" align="left">
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 3 Header</th>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Row 2-Item 4<br>A second line</td>
+            </tr>
+            <tr>
+                <td><p align="top"><b>Row 3 : Nested Table 2</b></p>
+                    <table border="3" align="left">
+                        <tr>
+                            <th>Row 1 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+                        </table>
+                        <td align="left">Row 3-Item 2</td>
+                        <td rowspan="2" align="left">Row 3-Item 3</td>
+
+            </tr>
+            <tr align="left">
+                <td>Row 4-Item 1</td>
+                <td>Row 4-Item 2</td>
+                <td>Row 4-Item 3</td>
+            </tr>
+            <tr align="left">
+                <td colspan="4">Row 5-Last row of outer table</td>
+                
+            </tr>
+        
+        
+    </table>
+    
+</body>
+</html>
